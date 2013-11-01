@@ -1,0 +1,7 @@
+== .bashrc ==
+
+function runJava() {
+  javac $1.java && java $1
+}
+alias rj='runJava'
+
