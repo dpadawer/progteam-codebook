@@ -5,3 +5,7 @@ function runJava() {
 }
 alias rj='runJava'
 
+function runC() {
+  make $1 && ./$1
+}
+alias rc='runC'
